@@ -7,9 +7,10 @@ if wezterm.config_builder then
     config = wezterm.config_builder()
 end
 
+config.audible_bell = "Disabled"
 config.enable_scroll_bar = true
 config.font = wezterm.font 'JetBrains Mono'
-config.font_size = 16
+config.font_size = 12
 config.window_background_opacity = 0.97
 -- config.color_scheme = 'Chameleon (Gogh)'
 -- config.color_scheme = 'Sandcastle (base16)'
